@@ -4,7 +4,43 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("Laboratorio 02");
-		Ejercicio10();
+		System.out.println("Seleccionar ejercicio: \n1\t2\t3\t4\n5\t6\t7\t8\n9\t10\t11\t12");
+		int eje = Entrada.entero();
+		switch(eje) {
+		case 1 :
+			Ejercicio01();
+			break;
+		case 2 :
+			Ejercicio02();
+			break;
+		case 3 :
+			Ejercicio03();
+			break;
+		case 4 :
+			Ejercicio04();
+			break;
+		case 5 :
+			Ejercicio05();
+			break;
+		case 6 :
+			Ejercicio06();
+			break;
+		case 7 :
+			Ejercicio07();
+			break;
+		case 8 :
+			Ejercicio08();
+			break;
+		case 9 :
+			Ejercicio09();
+			break;
+		case 10 :
+			Ejercicio10();
+			break;
+		default:
+			
+			break;
+		}
 	}
 	public static void Ejercicio01 () {
 		int n=Entrada.entero();
